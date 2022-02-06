@@ -1,4 +1,4 @@
-#Certificates completed
+*Certificates completed*
 
 ##1.Completed C programing lang from sololearn.
 ##2.Completed Cisco NDG to Understand Linux OS and Command Line Interface.
