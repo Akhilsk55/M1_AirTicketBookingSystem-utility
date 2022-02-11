@@ -11,7 +11,7 @@ The interface must be easy to understand. The user interface includes:
 2.	Hardware Interfaces
 
                    The system should basically support the input and output devices. 
-                 their descriptions are as follows.
+                  their descriptions are as follows.
 Name of Item	Description of Purpose	Source of Input/
 Description of output
 Keyboard	To accept data from user like pin code, personal details, flight details	Source of Input
@@ -33,11 +33,11 @@ FUNCTIONAL REQUIREMENTS
 
 FUNCTIONAL REQUIREMENT 1:
 
- PURPOSE: The purpose of this is to enable the users to view the different flights available to make it convenient for him to make a reservation.
+        PURPOSE: The purpose of this is to enable the users to view the different flights available to make it convenient for him to make a reservation.
 
- INPUTS: The user must enter the destination with date and timings and must make reservation by giving his personal details like name, address, age, gender, nationality.
+        INPUTS: The user must enter the destination with date and timings and must make reservation by giving his personal details like name, address, age, gender, nationality.
 
-PROCESSING: Recognizing the correct details are entered that a message is displayed confirming his reservation and displays the pin code.
+        PROCESSING: Recognizing the correct details are entered that a message is displayed confirming his reservation and displays the pin code.
 
 FUNCTIONAL REQUIREMENT 2:
 
