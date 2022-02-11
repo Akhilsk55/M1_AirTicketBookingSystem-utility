@@ -76,21 +76,18 @@ Algorithm:
  In this phase further I had designed algorithms for various technical sub problem.
  
 Reservation: 
-        Step 1:  a person comes to reserve a ticket.
-        Step 2:  then he gives his full details
-        Step 3:  in customer form those details were written.
-        Step 4:  then computer check the date what date the person reserved
-        Step 5:  then system justify the specific flight id
-        Step 6: if customer want domestic or international flight then system check availability of flight.
-        Step 7:  if seat is empty then system reserved the seat.
-        Step 8:  then ticket is generated.
-        Step 9:  the ticket is confirmed.
-        Step 10:  if the condition is not applied then it check next seat
-        Step 11:  and justified it.
-        Step 12:  if it is not also empty then it checks next by next.
-        Step 13:  if there  is  no  seat  then  system take  ticket  which  is  not  confirmed
-        Step 14:  then it give waiting list.
-        Step 15:  end.
+        Step 1:   a person comes to reserve a ticket.
+        Step 3:   in customer form those details were written.
+        Step 4:   then computer check the date what date the person reserved
+        Step 5:   then system justify the specific flight id
+        Step 7:    if seat is empty then system reserved the seat.
+        Step 8:   then ticket is generated.
+        Step 9:   the ticket is confirmed.
+        Step 10:   if the condition is not applied then it check next seat
+        Step 11:   and justified it.
+        Step 12:   if it is not also empty then it checks next by next.
+        Step 14:   then it give waiting list.
+        Step 15:   end.
 
 Cancellation :
 
