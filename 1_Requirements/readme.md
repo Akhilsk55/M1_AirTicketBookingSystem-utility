@@ -41,87 +41,85 @@ FUNCTIONAL REQUIREMENT 1:
 
 FUNCTIONAL REQUIREMENT 2:
 
-PURPOSE: The purpose is to allow the customer to make any changes in his personal details or flight booking details.
+        PURPOSE: The purpose is to allow the customer to make any changes in his personal details or flight booking details.
 
- INPUT: The user should enter his pin code which gives him access to modify his reservation.
+        INPUT: The user should enter his pin code which gives him access to modify his reservation.
 
-PROCESSING: The pin code is processed and checked for his validity. If it is correct then the user can modify his reservation else an error message will be displayed asking the user to enter the correct pin code number.
+        PROCESSING: The pin code is processed and checked for his validity. If it is correct then the user can modify his reservation else an error message will be displayed asking the user to enter the correct pin code number.
 
-OUTPUT: Given the correct pin code, the user can now modify his reservation. A new pin code will be generated for the customers.
+        OUTPUT: Given the correct pin code, the user can now modify his reservation. A new pin code will be generated for the customers.
 
 
 FUNCTIONAL REQUIREMENT 3:
 
-PURPOSE:  The purpose is to allow the customer to cancel his reservation if not required.
+        PURPOSE:  The purpose is to allow the customer to cancel his reservation if not required.
 
-INPUT: The user should enter his pin code which gives him access to cancel his reservation.
+        INPUT: The user should enter his pin code which gives him access to cancel his reservation.
 
-PROCESSING: The pin code is processed and checked for its validity. If it is correct, then the user can cancel his reservation else an error message will be displayed asking the user to enter the correct pin code number.
-OUTPUT: Given the correct pin code, the user can now cancel his reservation.
+        PROCESSING: The pin code is processed and checked for its validity. If it is correct, then the user can cancel his reservation else an error message will be displayed asking the user to enter the correct pin code number.
+        OUTPUT: Given the correct pin code, the user can now cancel his reservation.
 
 FUNCTIONAL REQUIREMENT 4:
 
-PURPOSE: The purpose is to enable the administrator to view the number of people in a particular flight.
+        PURPOSE: The purpose is to enable the administrator to view the number of people in a particular flight.
 
-INPUT: The administrator must enter the password so that access is given only to him to view the details of all the customers.
+        INPUT: The administrator must enter the password so that access is given only to him to view the details of all the customers.
 
-PROCESSING: The password is processed and checked for its validity. If it is not correct, then the administrator is asked to enter the correct password.
+        PROCESSING: The password is processed and checked for its validity. If it is not correct, then the administrator is asked to enter the correct password.
 
-OUTPUT: Given the correct password, the administrator can view all the details of customers with date and time of their bookings made.
+        OUTPUT: Given the correct password, the administrator can view all the details of customers with date and time of their bookings made.
 
 
 
 
 Algorithm:
 
-                In this phase further I had designed algorithms for various technical sub problem.
-
+ In this phase further I had designed algorithms for various technical sub problem.
+ 
 Reservation: 
-     Step 1:  a person comes to reserve a ticket.
-Step 2:  then he gives his full details
-Step 3:  in customer form those details were written.
-Step 4:  then computer check the date what date the person reserved
-Step 5:  then system justify the specific flight id
-      Step 6: if customer want domestic or international flight then system check availability of                     flight.
-Step 7:    if seat is empty then system reserved the seat.
-Step 8:    then ticket is generated.
-      Step 9:    the ticket is confirmed.
-      Step 10:  if the condition is not applied then it check next seat
-      Step 11:  and justified it.
-      Step 12:  if it is not also empty then it checks next by next.
-      Step 13:  if there  is  no  seat  then  system take  ticket  which  is  not  confirmed
-      Step 14:  then it give waiting list.
-      Step 15:  end.
+        Step 1:  a person comes to reserve a ticket.
+        Step 2:  then he gives his full details
+        Step 3:  in customer form those details were written.
+        Step 4:  then computer check the date what date the person reserved
+        Step 5:  then system justify the specific flight id
+        Step 6: if customer want domestic or international flight then system check availability of flight.
+        Step 7:  if seat is empty then system reserved the seat.
+        Step 8:  then ticket is generated.
+        Step 9:  the ticket is confirmed.
+        Step 10:  if the condition is not applied then it check next seat
+        Step 11:  and justified it.
+        Step 12:  if it is not also empty then it checks next by next.
+        Step 13:  if there  is  no  seat  then  system take  ticket  which  is  not  confirmed
+        Step 14:  then it give waiting list.
+        Step 15:  end.
 
 Cancellation :
 
-Step 1:    a passenger comes to cancel the ticket
-Step 2:    then the system open the delete form  
-Step 3:    it display all the passenger list
-      Step 4:    Step the system show record is deleted.
+        Step 1:    a passenger comes to cancel the ticket
+        Step 2:    then the system open the delete form  
+        Step 3:    it display all the passenger list
+       Step 4:    Step the system show record is deleted.
 
 when  passenger  come  to  reserved  a ticket  then  system  find  out  the  flight  details.
 
 
-
-
 PERFORMANCE REQUIREMENT
 
-•	At any instant, a maximum of four nodes or users will be given access simultaneously.
+ At any instant, a maximum of four nodes or users will be given access simultaneously.
 
-ATRIBUTES
+ ATRIBUTES
 
 
-I.	Reliability: The factors needed to establish the software expected reliability are
-The user inputs should be valid and within the given range.
-Normal termination of the program.
+    I.	Reliability: The factors needed to establish the software expected reliability are
+    The user inputs should be valid and within the given range.
+    Normal termination of the program.
 
-II.	 Availability: The factors guarantee the software’s availability includes proper termination and correct input details. Also, the resources used for the project development are Microsoft Certified which speaks of its high-quality standards.
+    II.	 Availability: The factors guarantee the software’s availability includes proper termination and correct input details. Also, the resources used for the project development are Microsoft Certified which speaks of its high-quality standards.
 
-III.	 Security: It must be ensured that access will be provided to the authorized persons through user ID and password.
-Network security will be provided using firewalls.
-Checks can be performed at regular intervals to ensure data integrity.
+    III.	 Security: It must be ensured that access will be provided to the authorized persons through user ID and password.
+    Network security will be provided using firewalls.
+    Checks can be performed at regular intervals to ensure data integrity.
 
-IV.	 Maintainability: The software will be developed by implementing the concept of modularity which in turn reduces the complexity involved in maintaining it. The administrator should have a sound technical knowledge about maintaining the software and further enhancements will be undertaken by the developer.
+    IV.	 Maintainability: The software will be developed by implementing the concept of modularity which in turn reduces the complexity involved in maintaining it. The administrator should have a sound technical knowledge about maintaining the software and further enhancements will be undertaken by the developer.
 
-V.	 Portability: The application is portable which ensures its adaptability for use on different computer terminals with different operating systems and standards
+    V.	 Portability: The application is portable which ensures its adaptability for use on different computer terminals with different operating systems and standards
