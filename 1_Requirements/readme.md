@@ -119,4 +119,4 @@ PERFORMANCE REQUIREMENT
     IV.	 Maintainability: The software will be developed by implementing the concept of modularity which in turn reduces the complexity involved in maintaining it. The administrator should have a sound technical knowledge about maintaining the software and further enhancements will be undertaken by the developer.
 
     V.	 Portability: The application is portable which ensures its adaptability for use on different computer terminals with different operating systems and standards
-   
+![swot](swot.png)
