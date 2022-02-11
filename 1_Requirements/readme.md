@@ -99,7 +99,7 @@ when  passenger  come  to  reserved  a ticket  then  system  find  out  the  fli
 
     III.	 Security: It must be ensured that access will be provided to the authorized persons through user ID and password.
     Network security will be provided using firewalls.
-    Checks can be performed at regular intervals to ensure data integrity.
+    Checks can be performed at regular intervals to ensure data integrity .
 
     IV.	 Maintainability: The software will be developed by implementing the concept of modularity which in turn reduces the complexity involved in maintaining it. The administrator should have a sound technical knowledge about maintaining the software and further enhancements will be undertaken by the developer.
 
