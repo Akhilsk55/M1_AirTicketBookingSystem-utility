@@ -8,24 +8,23 @@ The interface must be easy to understand. The user interface includes:
 3.	DATA FORMAT: The data entered by the users will be alpha numeric.
 4.	ERROR MESSAGES: When there are some exceptions raising error like entering invalid details, then error messages will be displayed prompting the users to re-enter the details.
 
-2.	Hardware Interfaces
+2.	HARDWARE INTERFACE
 
-                   The system should basically support the input and output devices. 
-                  their descriptions are as follows.
-Name of Item	Description of Purpose	Source of Input/
-Description of output
-Keyboard	To accept data from user like pin code, personal details, flight details	Source of Input
-Monitor	To display the bookings mode E.g.: Destination chosen with date and timings	Destination of Output
+The system should basically support the input and output devices 
+Their descriptions are as follows.
+   Name of Item	    Description of Purpose	     Source of Input/      Description of output
+    Keyboard	To accept data from user like pin code, personal details, flight details	Source of Input
+    Monitor  	To display the bookings mode E.g.: Destination chosen with date and timings	Destination of Output
 
 
-        3.Software Interfaces
+3.SOFTWARE INTERFACE
 
 Operating System: windows 7/8/10.
 RAM: 4/8GB
 Graphics card: None
 HDD Space: <5
    
-        4.REFERENCES
+4.REFERENCES
        https://www.google.com/search?q=uml+diagram+airline+
        reservation+system&rlz=1
               
