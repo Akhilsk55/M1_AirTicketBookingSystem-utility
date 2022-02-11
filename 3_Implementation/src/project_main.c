@@ -1,5 +1,5 @@
 // /**
-//  * @file index.c
+//  * @file project_main.c
 //  * @author AKHIL(akhil.p@ltts.com)
 //  * @brief 
 //  * @version 0.1
@@ -32,12 +32,15 @@ Flight passenger={"Air-india","11-02-2022","4:30","GATE-1"};
  * 
  */
 typedef struct{
+    
     char name[30];
     char num[20];
     char booking[10];
     int seats;
+    char from[20];
+    char to[20];
 }Seat;
-Seat select_person[4][5]; 
+Seat select_person[20]; 
 
 /**
  * @brief function
@@ -51,7 +54,7 @@ void seats_left(); //it contains how many seats are available
 void recall(); //initial cases are inside recall
 void exit_(); //exit from code
 
-
+int ch;
 int booking=100;
 int selectid; 
 int balance_seats=30;
@@ -61,12 +64,15 @@ int i;
 int j;
  
 int main(void)
-
 {
-    display();//calling func which contains main data
+
+    display();
     while(selectid!=4) //after the desired condition exits the loop and end
     {
+        for(int i=0;i<=1;i++)
+        {
         recall();
+        }
     }
     return 0;
 }
@@ -78,12 +84,13 @@ void display()
 		printf("\n\n\t\t ___________________________________________________________________________");
 		printf("\n\n\n\t\t Select your Requirement:");
 		printf("\n\n\t\t 1. Reservation");
-		printf("\n\n\t\t 2. Cancelletion");
-		printf("\n\n\t\t 3. Mybookings");
+		printf("\n\n\t\t 2. Mybookings");
+		printf("\n\n\t\t 3. Cancelletion");
 		printf("\n\n\t\t 4. EXIT");
 		printf("\n\n\t\t Enter your selection :  ");
-
+    
     scanf("%d",&selectid);
+    system("clear");
     recall();
     return;
     }
@@ -96,10 +103,10 @@ void recall()
             reserve();
             break;
         case 2:
-            cancel();
+            seats_left();
             break;
         case 3:
-            seats_left();
+            cancel();
             break;
         case 4:
             exit_();
@@ -117,41 +124,40 @@ void recall()
  */
 void reserve()
     {
-        for(i=0;i<4;i++)
-            for(j=0;j<5;j++) 
+        printf("\n");
+        for(i=0;i<2;i++)
         {          
         printf("\tPLEASE SELECT HOW MANY SEATS : ");
-        scanf("%d",&select_person[i][j].seats);
+        scanf("%d",&select_person[i].seats);
         fflush(stdin); 
+        printf("\n");
         printf("\tPLEASE ENTER YOUR NAME : ");
-        scanf("%s",select_person[i][j].name);
+        scanf("%s",select_person[i].name);
+        fflush(stdin);printf("\n");
+        printf("\tFROM  : ");
+        scanf("%s",select_person[i].from);
+        fflush(stdin);printf("\n");
+        printf("\tTO  : ");
+        scanf("%s",select_person[i].to);
         fflush(stdin);
-        if(select_person[i][j].seats<=balance_seats)
-        {
-        printf("\tPLEASE ENTER PASSENGER NAME  : ");
-        scanf("%s",select_person[i][j].name);
-        fflush(stdin);
+        system("clear");
         ticket();
         booking++;
-        }
-        balance_seats=balance_seats-select_person[i][j].seats;
-        display(); 
+       
+        balance_seats=balance_seats-select_person[i].seats;
+        display();
+    
+        
        }
- 
+    
     return;
     }
 
 void cancel()
-    {  
-        for(j=0;j<1;j++)
-        {
+    { 
         printf("Do you want to cancel this ticket");
-        }
-        for(i=0;i<1;i++)
-        {
-            printf("\n");
-            printf("%d\n",i+1);
-        }
+        
+        
         display();
     return;
     }
@@ -162,12 +168,16 @@ void ticket()//booked tickets are shown in mybookings using func tickets
     printf("\t-----------------AIRLINE BOOKING TICKET----------------\n");
     printf("\t============================================================\n");
     printf("\t Booking ID : %d   \t\t\tFlight No : %s\n",booking,passenger.number);
-    printf("\t Passenger  : %s\n",select_person[i][j].name);
+    printf("\t Passenger  : %s\n",select_person[i].name);
+    printf("\t FROM       : %s\n",select_person[i].from);
+    printf("\t TO         : %s\n",select_person[i].to);
     printf("\t\t\t                            Date : %s\n",passenger.date);
-    printf("\t                       Time      : %s\n",passenger.time);
-    printf("\t                       Gate      : %s\n",passenger.gate);
-    printf("\t                       Seats No. : %d%c  \n\n",i+1,j+65);
+    printf("\t                    Time       : %s\n",passenger.time);
+    printf("\t                    Gate       : %s\n",passenger.gate);
+    printf("\t                    Seats No.  : %d%c  \n\n",i+1,j+65);
     printf("\t============================================================\n");
+    printf("\tPLEASE ENTER 1 TO CONTINUE ");
+    scanf("%d",&ch);
     return;}
 
 void seats_left() //it contains the number of seats left for booking
