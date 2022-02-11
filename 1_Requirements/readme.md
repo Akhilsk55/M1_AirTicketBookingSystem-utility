@@ -106,14 +106,14 @@ when  passenger  come  to  reserved  a ticket  then  system  find  out  the  fli
     V.	 Portability: The application is portable which ensures its adaptability for use on different computer terminals with different operating systems and standards
 ![swot](swot.png)
 
-**4W's and 1H**
-***Who:***
-Everyone who are able to book the tickets are able to travel
-***What:***
-Airline system is mainly comprised of travelling across the globe
-***When:***
+**4W's and 1H**<br/>
+***Who:***<br/>
+Everyone who are able to book the tickets are able to travel<br/>
+***What:***<br/>
+Airline system is mainly comprised of travelling across the globe<br/>
+***When:***<br/>
 
-***Where:***
-User can can access this application using any C compiler.
-***How:***
-Implementation is done using C language. And also used multifile concept.
+***Where:***<br/>
+User can can access this application using any C compiler.<br/>
+***How:***<br/>
+Implementation is done using C language. And also used multifile concept.<br/>
