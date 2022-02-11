@@ -1,13 +1,13 @@
-REQUIREMENTS
+#REQUIREMENTS#
 
-User Interfaces
+***User Interfaces***
 The interface must be easy to understand. The user interface includes:
 
 1.	SCREEN FORMATS: The introductory screen will be the first to be displayed which will allow the users to choose either of the two options, viewing flight detail or booking a ticket.
 2.	WINDOW FORMAT: When the user chooses some other option, then the information pertaining to that choice will be displayed in a new window which ensures multiple windows to be visible on the screen and the users can switch between them.
 3.	DATA FORMAT: The data entered by the users will be alpha numeric.
 
-2.	HARDWARE INTERFACE
+***2.	HARDWARE INTERFACE***
 
 The system should basically support the input and output devices 
 Their descriptions are as follows.
@@ -16,20 +16,20 @@ Their descriptions are as follows.
     Monitor  	To display the bookings mode E.g.: Destination chosen with date and timings	Destination of Output
 
 
-3.SOFTWARE INTERFACE
+***3.SOFTWARE INTERFACE***
 
 Operating System: windows 7/8/10.
 RAM: 4/8GB
 Graphics card: None
 HDD Space: <5
    
-4.REFERENCES
+***4.REFERENCES***
        https://www.google.com/search?q=uml+diagram+airline+
        reservation+system&rlz=1
               
 FUNCTIONAL REQUIREMENTS
 
-FUNCTIONAL REQUIREMENT 1:
+***FUNCTIONAL REQUIREMENT 1:***
 
         PURPOSE: The purpose of this is to enable the users to view the different flights available to make it convenient for him to make a reservation.
 
@@ -38,7 +38,7 @@ FUNCTIONAL REQUIREMENT 1:
         PROCESSING: Recognizing the correct details are entered that a message is displayed confirming his reservation and displays the pin code.
 
 
-FUNCTIONAL REQUIREMENT 2:
+***FUNCTIONAL REQUIREMENT 2:***
 
         PURPOSE:  The purpose is to allow the customer to cancel his reservation if not required.
 
@@ -47,7 +47,7 @@ FUNCTIONAL REQUIREMENT 2:
         PROCESSING: The pin code is processed and checked for its validity. If it is correct, then the user can cancel his reservation else an error message will be displayed asking the user to enter the correct pin code number.
         OUTPUT: Given the correct pin code, the user can now cancel his reservation.
 
-FUNCTIONAL REQUIREMENT 3:
+***FUNCTIONAL REQUIREMENT 3:***
 
         PURPOSE: The purpose is to enable the person to his booking.
         INPUT: The person access is given only to him to view the details of his booking.
@@ -84,11 +84,11 @@ Cancellation :
 when  passenger  come  to  reserved  a ticket  then  system  find  out  the  flight  details.
 
 
-PERFORMANCE REQUIREMENT
+***PERFORMANCE REQUIREMENT***
 
  At any instant, a maximum of four nodes or users will be given access simultaneously.
 
- ATRIBUTES
+ ***ATRIBUTES***
 
 
     I.	Reliability: The factors needed to establish the software expected reliability are
@@ -106,15 +106,14 @@ PERFORMANCE REQUIREMENT
     V.	 Portability: The application is portable which ensures its adaptability for use on different computer terminals with different operating systems and standards
 ![swot](swot.png)
 
-** **4W's and 1H
-Who:
-Everyone can use the bank management system who want to have benifit of banking.
-What:
-Bank management sysem is mainly concerned to Cover the major Banking activities in sigle application.
-When:
-TBD
+**4W's and 1H**
+***Who:***
+Everyone who are able to book the tickets are able to travel
+***What:***
+Airline system is mainly comprised of travelling across the globe
+***When:***
 
-Where:
+***Where:***
 User can can access this application using any C compiler.
-How:
+***How:***
 Implementation is done using C language. And also used multifile concept.
