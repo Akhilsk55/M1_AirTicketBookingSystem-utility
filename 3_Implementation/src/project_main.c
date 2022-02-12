@@ -14,8 +14,8 @@
 #include <stdlib.h>
 #include<string.h>
 // #include"ticket.h"
-#include"reservation.h"
-#include"display.h"
+#include"reservation.c"
+#include"display.c"
 
 
 

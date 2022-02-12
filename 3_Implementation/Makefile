@@ -21,7 +21,7 @@ Run : Build
 coverage:
 	gcc -fprofile-arcs -ftest-coverage $(SRC) -Iinc -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
-	gcov -a src/project_main.c src/reservation.c
+	gcov -a src/project_main.c 
 
 Clean:
 	$(RM) $(call FixPath,*.out)
