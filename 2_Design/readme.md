@@ -1,7 +1,7 @@
 STRUCTURAL DIAGRAMS
----
+
 ![STRUCTURAL](One.png)
 
 BEHAVIORAL DIAGRAMS
----
+
 ![BEHAVIORAL](zero.png)
