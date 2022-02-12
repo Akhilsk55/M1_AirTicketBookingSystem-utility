@@ -1,6 +1,6 @@
 STRUCTURAL DIAGRAMS
 
-![](One.png)
+![struct](One.png)
 
 BEHAVIORAL DIAGRAMS
 
