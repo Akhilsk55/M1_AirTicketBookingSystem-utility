@@ -10,3 +10,11 @@ cpp-check
 ---
 [![cppcheck-action](https://github.com/Akhilsk55/M1_AirTicketBookingSystem-utility/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Akhilsk55/M1_AirTicketBookingSystem-utility/actions/workflows/cppcheck.yml)
  
+Source code is available in 3_Implementation/src
+---
+To Run the program make file is created use the command Make or <br/>
+command : gcc project_main.c -o a.out <br/>
+command : ./a.out
+---
+In makefile SRC=src/project_main.c 
+---
