@@ -81,7 +81,8 @@ void recall()
     }
 
 void ticket()//booked tickets are shown in mybookings using func tickets
-    {
+    {char tc[10];
+    int j=0;
     printf("\n\n");
     printf("\t-----------------AIRLINE BOOKING TICKET----------------\n");
     printf("\t============================================================\n");
@@ -92,14 +93,14 @@ void ticket()//booked tickets are shown in mybookings using func tickets
     printf("\t\t\t                            Date : %s\n",passenger.date);
     printf("\t                    Time       : %s\n",passenger.time);
     printf("\t                    Gate       : %s\n",passenger.gate);
-    printf("\t                    Seats No.  : %d  \n\n",i+1);
+    printf("\t                    Seats No.  : %d  \n\n",j+1);
     printf("\t============================================================\n");
     printf("\n");
     printf("\t                     ALL FLIGHT RECORDS                  \n"); 
     printf("\t_________________________________________________________\n");
     printf("\t                   Seats Available left : %d \n",balance_seats); //availabe seats 
     printf("\tPLEASE ENTER 1 TO CONTINUE ");
-    scanf("%d",&ch);
+    scanf("%s",tc);
     return;}
 
 void cancel()

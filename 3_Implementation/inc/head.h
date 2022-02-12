@@ -11,7 +11,7 @@ typedef struct{
 }Seat;
 Seat select_person[5]; 
 
-int i,ch;
+int i;
 int balance_seats=30;
 int booking=100; 
  
