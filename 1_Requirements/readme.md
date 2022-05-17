@@ -104,6 +104,23 @@ when  passenger  come  to  reserved  a ticket  then  system  find  out  the  fli
     IV.	 Maintainability: The software will be developed by implementing the concept of modularity which in turn reduces the complexity involved in maintaining it. The administrator should have a sound technical knowledge about maintaining the software and further enhancements will be undertaken by the developer.
 
     V.	 Portability: The application is portable which ensures its adaptability for use on different computer terminals with different operating systems and standards
+# High Level Requirements
+
+|ID|Description|
+|:--:|:---:|
+|HLR_01|Press switch 1,to reserve a seat|
+|HLR_02|Press switch 2,to cancellation|
+|HLR_03|Press switch 3,to change reservation rate|
+|HLR_04|Press switch 4,to see my bookings|
+
+# Low Level Requirements
+
+### Low Level Requiremets for HLR_01
+
+|ID|Description|
+|:---:|:----:|
+|LLR_01|Reservation portal should open when you press "1"|
+|LLR_02|Able to set 
 ![swot](swot.png)
 
 **4W's and 1H**<br/>
